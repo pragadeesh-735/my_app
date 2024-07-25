@@ -91,7 +91,7 @@ class UsersController extends AppController
         $this->set(compact('user'));
     }
 
-
+    // delete page
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);

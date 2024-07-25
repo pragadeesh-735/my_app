@@ -71,7 +71,7 @@ class UsersController extends AppController
         $this->set(compact('user'));
     }
 
-
+    //edit page
     public function edit($id = null)
     {
         $user = $this->Users->get($id, [

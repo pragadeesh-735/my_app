@@ -3,14 +3,14 @@
     <h3>Login</h3>
     <?= $this->Form->create() ?>
     <fieldset>
-        <legend><?= __('Please enter your username and password') ?></legend>
+        <!-- <legend><?= __('Please enter your username and password') ?></legend> -->
         <?= $this->Form->control('email', ['required' => true, 'id' => 'email']) ?>
         <?= $this->Form->control('password', ['required' => true, 'id' => 'password']) ?>
     </fieldset>
     <?= $this->Form->submit(__('Login')); ?>
     <?= $this->Form->end() ?>
 
-    <?= $this->Html->link("Add User", ['action' => 'add']) ?>
+    <?= $this->Html->link("Register", ['action' => 'add']) ?>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
